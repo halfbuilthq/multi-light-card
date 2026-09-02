@@ -5,6 +5,11 @@ Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+
+- Regression coverage for Home Assistant theme backgrounds and keyboard focus
+  treatment on native light controls.
+
 ## [0.1.0] - 2026-09-02
 
 ### Added
@@ -13,4 +18,3 @@ Semantic Versioning.
 - Conditional brightness and colour-temperature controls.
 - Optional whole-room brightness control.
 - Native visual configuration and HACS-compatible packaging.
-
