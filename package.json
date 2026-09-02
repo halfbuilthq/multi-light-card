@@ -1,0 +1,46 @@
+{
+  "name": "multi-light-card",
+  "version": "0.1.0",
+  "description": "A capability-aware multi-light control card for Home Assistant.",
+  "keywords": [
+    "hacs",
+    "home-assistant",
+    "lighting",
+    "lovelace",
+    "multi-light"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halfbuilthq/multi-light-card.git"
+  },
+  "homepage": "https://github.com/halfbuilthq/multi-light-card#readme",
+  "bugs": {
+    "url": "https://github.com/halfbuilthq/multi-light-card/issues"
+  },
+  "type": "module",
+  "main": "dist/multi-light-card.js",
+  "files": [
+    "dist/multi-light-card.js",
+    "README.md",
+    "hacs.json"
+  ],
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "check": "npm run test && npm run build"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
