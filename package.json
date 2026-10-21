@@ -1,7 +1,7 @@
 {
   "name": "multi-light-card",
   "version": "0.1.0",
-  "description": "A capability-aware multi-light control card for Home Assistant.",
+  "description": "Capability-aware control of multiple Home Assistant lights, available in HACS.",
   "keywords": [
     "hacs",
     "home-assistant",

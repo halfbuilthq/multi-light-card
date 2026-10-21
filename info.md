@@ -3,6 +3,9 @@
 A capability-aware Home Assistant card for controlling any number of lights
 without showing unsupported controls.
 
+Available directly in the default HACS catalogue. Search for **Multi-Light Card**
+in HACS; no custom repository is needed.
+
 ![Multi-Light Card preview](docs/multi-light-card-preview.png)
 
 ## Highlights
