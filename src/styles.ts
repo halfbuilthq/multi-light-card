@@ -182,7 +182,7 @@ export const cardStyles = css`
 
   .light-row {
     display: grid;
-    grid-template-columns: minmax(178px, 1fr) minmax(210px, 1.05fr);
+    grid-template-columns: minmax(178px, 1fr) minmax(330px, 1.05fr);
     gap: clamp(14px, 3cqw, 28px);
     align-items: center;
     min-height: 124px;
@@ -466,7 +466,7 @@ export const cardStyles = css`
     opacity: 0.42;
   }
 
-  @container (max-width: 560px) {
+  @container (max-width: 640px) {
     .light-row {
       grid-template-columns: minmax(0, 1fr);
       gap: 13px;
