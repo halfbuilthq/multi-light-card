@@ -44,8 +44,7 @@ jobs:
             echo "Release $tag already exists; leaving it unchanged."
             exit 0
           fi
-          existing_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${tag}" --jq .object.sha 2>/dev/null || true)"
-          if [ -n "$existing_sha" ]; then
+          if existing_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${tag}" --jq .object.sha 2>/dev/null)"; then
             test "$existing_sha" = "$GITHUB_SHA"
           else
             gh api --method POST "repos/${GITHUB_REPOSITORY}/git/refs" \
