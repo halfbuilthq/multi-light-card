@@ -5,6 +5,13 @@ Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-11-09
+
+### Maintenance
+
+- Update the Vite development dependency from 7.3.6 to 7.3.7 (#1).
+- No card functionality or configuration changes.
+
 ## [0.1.1] - 2026-11-01
 
 ### Fixed
